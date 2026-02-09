@@ -1,0 +1,176 @@
+{
+  "description": "실험에 사용된 모델 메타데이터 (파라미터 수, 한국어 사전학습 여부 등). 수정 가능.",
+  "models": [
+    {
+      "model_id": "skt/A.X-3.1",
+      "safe_name": "skt_A.X-3.1",
+      "params_b": 34,
+      "params_note": "34B",
+      "korean_pretrained": true,
+      "organization": "SKT",
+      "note": "한국어 자체 개발, 34B"
+    },
+    {
+      "model_id": "skt/A.X-4.0",
+      "safe_name": "skt_A.X-4.0",
+      "params_b": 72,
+      "params_note": "72B",
+      "korean_pretrained": true,
+      "organization": "SKT",
+      "note": "한국어 자체 개발, 72B"
+    },
+    {
+      "model_id": "skt/A.X-4.0-Light",
+      "safe_name": "skt_A.X-4.0-Light",
+      "params_b": 7,
+      "params_note": "7B (Light)",
+      "korean_pretrained": true,
+      "organization": "SKT",
+      "note": "A.X 4.0 경량 버전"
+    },
+    {
+      "model_id": "LGAI-EXAONE/EXAONE-4.0-32B",
+      "safe_name": "LGAI-EXAONE_EXAONE-4.0-32B",
+      "params_b": 32,
+      "params_note": "32B",
+      "korean_pretrained": true,
+      "organization": "LG AI",
+      "note": "한국어 사전학습"
+    },
+    {
+      "model_id": "LGAI-EXAONE/EXAONE-4.0-1.2B",
+      "safe_name": "LGAI-EXAONE_EXAONE-4.0-1.2B",
+      "params_b": 1.2,
+      "params_note": "1.2B",
+      "korean_pretrained": true,
+      "organization": "LG AI",
+      "note": "한국어 경량"
+    },
+    {
+      "model_id": "dnotitia/DNA-2.0-14B",
+      "safe_name": "dnotitia_DNA-2.0-14B",
+      "params_b": 14,
+      "params_note": "14B",
+      "korean_pretrained": true,
+      "organization": "dnotitia",
+      "note": "한국어 특화"
+    },
+    {
+      "model_id": "K-intelligence/Midm-2.0-Base-Instruct",
+      "safe_name": "K-intelligence_Midm-2.0-Base-Instruct",
+      "params_b": 14,
+      "params_note": "14B급",
+      "korean_pretrained": true,
+      "organization": "K-intelligence",
+      "note": "한국 법률 지식 강화"
+    },
+    {
+      "model_id": "openai/gpt-oss-20b",
+      "safe_name": "openai_gpt-oss-20b",
+      "params_b": 20,
+      "params_note": "20B",
+      "korean_pretrained": false,
+      "organization": "OpenAI",
+      "note": "영어 중심, 다국어"
+    },
+    {
+      "model_id": "Qwen/Qwen2.5-7B-Instruct",
+      "safe_name": "Qwen_Qwen2.5-7B-Instruct",
+      "params_b": 7,
+      "params_note": "7B",
+      "korean_pretrained": false,
+      "organization": "Alibaba",
+      "note": "다국어, 한국어 지원"
+    },
+    {
+      "model_id": "Qwen/Qwen2.5-14B-Instruct",
+      "safe_name": "Qwen_Qwen2.5-14B-Instruct",
+      "params_b": 14,
+      "params_note": "14B",
+      "korean_pretrained": false,
+      "organization": "Alibaba",
+      "note": "다국어"
+    },
+    {
+      "model_id": "Qwen/Qwen3-8B",
+      "safe_name": "Qwen_Qwen3-8B",
+      "params_b": 8,
+      "params_note": "8B",
+      "korean_pretrained": false,
+      "organization": "Alibaba",
+      "note": "Qwen3 시리즈"
+    },
+    {
+      "model_id": "Qwen/Qwen3-14B",
+      "safe_name": "Qwen_Qwen3-14B",
+      "params_b": 14,
+      "params_note": "14B",
+      "korean_pretrained": false,
+      "organization": "Alibaba",
+      "note": "Qwen3 시리즈"
+    },
+    {
+      "model_id": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+      "safe_name": "Qwen_Qwen3-30B-A3B-Instruct-2507",
+      "params_b": 30.5,
+      "params_note": "30.5B MoE (3.3B active)",
+      "korean_pretrained": false,
+      "organization": "Alibaba",
+      "note": "MoE"
+    },
+    {
+      "model_id": "Qwen/Qwen3-Next-80B-A3B-Instruct",
+      "safe_name": "Qwen_Qwen3-Next-80B-A3B-Instruct",
+      "params_b": 80,
+      "params_note": "80B MoE",
+      "korean_pretrained": false,
+      "organization": "Alibaba",
+      "note": "MoE"
+    },
+    {
+      "model_id": "zai-org/GLM-4.7",
+      "safe_name": "zai-org_GLM-4.7",
+      "params_b": 358,
+      "params_note": "358B MoE",
+      "korean_pretrained": false,
+      "organization": "Zhipu",
+      "note": "초대형 MoE"
+    },
+    {
+      "model_id": "kakaocorp/kanana-2-30b-a3b-thinking-2601",
+      "safe_name": "kakaocorp_kanana-2-30b-a3b-thinking-2601",
+      "params_b": 30.5,
+      "params_note": "30B MoE",
+      "korean_pretrained": true,
+      "organization": "Kakao",
+      "note": "한국어 특화 MoE"
+    },
+    {
+      "model_id": "LGAI-EXAONE/EXAONE-3.5-32B-Instruct",
+      "safe_name": "LGAI-EXAONE_EXAONE-3.5-32B-Instruct",
+      "params_b": 32,
+      "params_note": "32B",
+      "korean_pretrained": true,
+      "organization": "LG AI",
+      "note": "EXAONE 3.5 시리즈"
+    },
+    {
+      "model_id": "naver-hyperclovax/HyperCLOVAX-SEED-Think-14B",
+      "safe_name": "naver-hyperclovax_HyperCLOVAX-SEED-Think-14B",
+      "params_b": 14,
+      "params_note": "14B",
+      "korean_pretrained": true,
+      "organization": "Naver",
+      "note": "한국어 특화, 사고 모델"
+    },
+    {
+      "model_id": "openai/gpt-oss-120b",
+      "safe_name": "openai_gpt-oss-120b",
+      "params_b": 120,
+      "params_note": "120B",
+      "korean_pretrained": false,
+      "organization": "OpenAI",
+      "note": "대형 다국어 모델"
+    }
+  ]
+}

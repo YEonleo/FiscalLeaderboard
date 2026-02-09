@@ -1,0 +1,6 @@
+# Fiscal Leaderboard 앱 의존성 (hf_space와 동일)
+# 로컬 실행: cd hf_space && pip install -r requirements.txt && streamlit run app.py
+streamlit>=1.41.0
+pandas>=2.1.0
+numpy>=1.26.0
+altair>=5.2.0

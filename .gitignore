@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Env
+.env
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs / temp
+*.log
+*.tmp
+*.temp
+
+# Optional: 큰 결과물 제외 시 아래 주석 해제
+results_cpa/raw/
+results_cpa/summary/
+results_tax500/
+results_cpa/
+results_yearly/
