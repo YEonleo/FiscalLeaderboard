@@ -37,16 +37,9 @@ Fiscal_leaderboard/
 
 ---
 
-## Git 제외 (대용량 결과물)
+## 데이터
 
-용량이 큰 결과물 폴더는 Git에 올리지 않도록 `.gitignore`에 추가해 두었습니다.
-
-- 제외 대상: `results_cpa/raw/`, `results_cpa/summary/`, `results_tax500/`
-
-필요 시 추가하는 방법:
-
-1. `.gitignore`에서 위 라인을 삭제(또는 주석 처리)한 뒤 `git add` 합니다.
-2. 이미 ignore된 상태에서 강제로 올리려면 `git add -f results_cpa/raw results_cpa/summary results_tax500` 를 사용합니다.
+데이터 부분은 용량이 커서 저장소에서 제외했습니다.
 
 ---
 
